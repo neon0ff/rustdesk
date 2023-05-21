@@ -61,6 +61,6 @@ command: hbbr -k _
 ### К себе выписываем только публичный ключ
 
 
-#LINKS
-[Habr](https://habr.com/ru/articles/672230/)
-[RustDesk](https://rustdesk.com/docs/en/self-host/install/)
+# LINKS
+* [Habr](https://habr.com/ru/articles/672230/)
+* [RustDesk](https://rustdesk.com/docs/en/self-host/install/)
