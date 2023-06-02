@@ -43,7 +43,7 @@
 command: hbbs -r rustdesk.example.com:21117
 command: hbbr
 на
-command: hbbs -r rust1desk1.387cyhdxr43iuosed98po.com:21117 -k _
+command: hbbs -r rust1desk1.yourdomain.com:21117 -k _
 command: hbbr -k _
 ```
 ### Далее нужно открыть контейнеры и проверить ключи и убедиться что они одинаковые
