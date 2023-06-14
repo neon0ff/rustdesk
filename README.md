@@ -64,4 +64,4 @@ command: hbbr -k _
 # LINKS
 * [Habr](https://habr.com/ru/articles/672230/)
 * [RustDesk](https://rustdesk.com/docs/en/self-host/install/)
-* [RustDesk Мануал rus](https://rustdesk.com/docs/ru/)
+* [RustDesk rus](https://rustdesk.com/docs/ru/)
