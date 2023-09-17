@@ -7,7 +7,7 @@
 ### Настроим фаервол
 <code>sudo ufw allow 22</code>
 
-<code>suod ufw allow 21115:21119/tcp</code>
+<code>suodo ufw allow 21115:21119/tcp</code>
 
 <code>sudo ufw allow 8000/tcp</code>
 
