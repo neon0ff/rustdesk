@@ -30,7 +30,7 @@
 <code>sudo apt upgrade -y</code>
 ### Настроим фаервол
 <code>sudo ufw allow 22</code>
-### Установим Docker-compose по [этой ссылке](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/)
+### Установим Docker и Docker-compose по иснтрукции на [этой ссылке](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/)
 
 ### Скачаем репоззиторий с конф файлом
 <code>sudo git clone https://github.com/rustdesk/rustdesk-server</code>
