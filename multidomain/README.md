@@ -33,7 +33,7 @@ command: hbbs -r rust1desk1.yourdomain.com:21117 -k _
 
 <code>sudo docker logs hbbr2</code>
 
-<code>sudo docker logs hbbr2</code>
+<code>sudo docker logs hbbr3</code>
 
 ### Там мы увидим много информации но нам нужна только одна информационная строка ``Key:`` и выглядит она примерно так:
 ```bash
