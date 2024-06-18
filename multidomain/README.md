@@ -8,6 +8,7 @@
 
 ### Создаеи и переходим в папку RustDesk
 <code>sudo mkdir RustDesk</code>
+
 <code>cd RustDesk</code>
 ### Скачаем конфигурационный файл
 <code>sudo git clone https://github.com/neon0ff/rustdesk/blob/main/multidomain/docker-compose.yml</code>
