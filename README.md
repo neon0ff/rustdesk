@@ -48,12 +48,14 @@ command: hbbr -k _
 <code>RustDesk/data/id_ed25519.pub</code>
 
 <sub>Самое главное записываем ключ вместе со знаком "="</sub>
-<code>exit</code>
 
-<code>sudo docker exec -it hbbr /bin/bash</code>
-### Так же открываем ключи и проверям что бы совпадали с прошлым
-### К себе выписываем только публичный ключ
+### Второй способ - посмотреть логи докер контейнера где будет показан ключ
+<code>sudo docker logs hbbr</code>
 
+### Там мы увидим много информации но нам нужна только одна информационная строка ``Key:`` и выглядит она примерно так:
+```bash
+[2024-06-14 07:27:24.981370 +00:00] INFO [src/rendezvous_server.rs:1191] Key: g1J0rV4WXwgnzvA2Ezqd0wns3PVMfovAbgHKHpt8QveE=
+```
 
 # LINKS
 * [Habr](https://habr.com/ru/articles/672230/)
