@@ -21,14 +21,18 @@ command: hbbs -r rust1desk1.yourdomain.com:21117 -k _
 ### Далее нужно проверить ключи и записать их, можно несколькими способами
 ### Самый простой способ, посмотреть его после запуска контейнера в деректории
 <code>cat RustDesk/data1/id_ed25519.pub</code>
+
 <code>cat RustDesk/data2/id_ed25519.pub</code>
+
 <code>cat RustDesk/data3/id_ed25519.pub</code>
 
 <sub>Самое главное записываем ключ вместе со знаком "="</sub>
 
 ### Второй способ - посмотреть логи докер контейнера где будет показан ключ
 <code>sudo docker logs hbbr1</code>
+
 <code>sudo docker logs hbbr2</code>
+
 <code>sudo docker logs hbbr2</code>
 
 ### Там мы увидим много информации но нам нужна только одна информационная строка ``Key:`` и выглядит она примерно так:
