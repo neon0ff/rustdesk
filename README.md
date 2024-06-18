@@ -31,28 +31,23 @@
 
 ### Установим Docker и Docker-compose по иснтрукции на [этой ссылке](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/)
 
-### Скачаем репоззиторий с конф файлом
-<code>sudo git clone https://github.com/rustdesk/rustdesk-server</code>
-### Переходим в папку и редактирум docker-compose.yml
-<code>cd rustdesk-server</code>
+### Срздаеи и переходим в папку RustDesk
+<code>sudo mkdir RustDesk</code>
+<code>cd RustDesk</code>
+### Скачаем конфигурационный файл
+<code>sudo git clone https://github.com/neon0ff/rustdesk/blob/main/docker-compose.yml</code>
 
 <code>sudo nano docker-compose.yml</code>
-### Там меняем 2 строки
+### Там меняем 2 строку, там вместо ```rust1desk1.yourdomain.com``` пишем свой домен
 ```
-command: hbbs -r rustdesk.example.com:21117
-command: hbbr
-на
 command: hbbs -r rust1desk1.yourdomain.com:21117 -k _
 command: hbbr -k _
 ```
-### Далее нужно открыть контейнеры и проверить ключи и убедиться что они одинаковые
-### Откроем котейнер hbbs и найдет ключ и выпешем его
-<code>sudo docker exec -it hbbs /bin/bash</code>
+### Далее нужно проверить ключи и записать их, можно несколькими способами
+### Самый простой способ посмотреть его после запуска контейнера в деректории
+<code>RustDesk/data/id_ed25519.pub</code>
 
-<code>cat id_ed25519.pub</code>
-### Мы увидили наш ключ записали его
-### Так же можно проверить и обычный приватный ключ
-### Теперь выходим и открываем следующий контейнер
+<sub>Самое главное записываем ключ вместе со знаком "="</sub>
 <code>exit</code>
 
 <code>sudo docker exec -it hbbr /bin/bash</code>
