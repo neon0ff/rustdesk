@@ -28,8 +28,7 @@
 <code>sudo apt update</code>
 
 <code>sudo apt upgrade -y</code>
-### Настроим фаервол
-<code>sudo ufw allow 22</code>
+
 ### Установим Docker и Docker-compose по иснтрукции на [этой ссылке](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/)
 
 ### Скачаем репоззиторий с конф файлом
