@@ -1,4 +1,4 @@
-[ENG](https://github.com/neon0ff/rustdesk/blob/main/README_en.md) | RUS
+[ENG](https://github.com/neon0ff/rustdesk/blob/main/multidomain/README_en.md) | RUS
 # Поднятие мультидоменного RustDesk с помощью Docker
 ##### Перед установкой обновим всю софтину
 ```bash
