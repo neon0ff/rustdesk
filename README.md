@@ -1,4 +1,4 @@
-# [ENG](https://github.com/neon0ff/rustdesk/blob/main/README_ENG.md) | RUS
+[ENG](https://github.com/neon0ff/rustdesk/blob/main/README_ENG.md) | RUS
 ## Ручная настройка
 ##### Перед установкой обновим всю софтину
 ```bash
