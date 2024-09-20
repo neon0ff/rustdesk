@@ -1,4 +1,4 @@
-[ENG] | [RUS](https://github.com/neon0ff/rustdesk/blob/main/multidomain/README.md)
+ENG | [RUS](https://github.com/neon0ff/rustdesk/blob/main/multidomain/README.md)
 # Deploying a multi-domain RustDesk server using Docker
 ##### Before installing, we will update all the software.
 
