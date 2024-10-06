@@ -8,7 +8,7 @@ sudo apt upgrade -y
 
 ```
 
-##### Then, we need to install Docker and Docker Compose according to the instructions [here](https://totaku.ru/install-docker-and-docker-compose-on-ubuntu-22-04/).
+##### Then, we need to install Docker and Docker Compose according to the instructions [here](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/).
 
 ##### Next, create and go to the RustDesk directory.
 
