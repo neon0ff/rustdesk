@@ -21,7 +21,7 @@ cd RustDesk
 ```
 ##### Скачаем конфигурационный файл
 ```bash
-sudo git clone https://github.com/neon0ff/rustdesk/blob/main/multidomain/docker-compose.yml
+curl -o docker-compose.yml https://github.com/neon0ff/rustdesk/blob/main/multidomain/docker-compose.yml
 ```
 
 ```bash
