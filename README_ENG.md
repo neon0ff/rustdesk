@@ -65,7 +65,10 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-##### Install Docker and Docker-compose following the instructions at [this link](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/).
+##### Install Docker and Docker Compose in one command
+```bash
+curl -fsSL https://test.docker.com | sudo sh
+```
 
 ##### Create and navigate to the RustDesk folder:
 
